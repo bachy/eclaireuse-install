@@ -23,3 +23,9 @@ cp $_cwd/assets/lightdm.conf /etc/lightdm/
 
 # launch chromium with eclaireuse url
 cp $_cwd/assets/xsessions /home/gaite/.xsession
+
+# ip fixe
+# ip          192.168.17.200
+# passerelle  192.168.17.1
+# dns         192.168.2.10
+#             255.255.255.0

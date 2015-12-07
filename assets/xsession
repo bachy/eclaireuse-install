@@ -29,8 +29,13 @@ while true; do
 
 	# Start the window manager (remove "-use_cursor no" if you actually want mouse interaction)
 	matchbox-window-manager -use_titlebar no -use_cursor no &
+ 
+	
+	xinput --map-to-output 8 DVI-I-1
+	xinput --map-to-output 9 DVI-I-1
 
 	# Start the browser (See http://peter.sh/experiments/chromium-command-line-switches/)
-	chromium  --app=http://eclaireuse.gaitelyrique.net
-
+	chromium  --app=http://eclaireuse.gaitelyrique.net/en/control
+	
+	#terminator
 done;
