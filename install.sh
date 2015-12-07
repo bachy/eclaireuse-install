@@ -20,3 +20,6 @@ apt-get install xorg lightdm matchbox-window-manager chromium open-ssh
 # configure lightdm (autologin)
 mv /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.ORIGINAL
 cp $_cwd/assets/lightdm.conf /etc/lightdm/
+
+# launch chromium with eclaireuse url
+cp $_cwd/assets/xsessions /home/gaite/.xsession
