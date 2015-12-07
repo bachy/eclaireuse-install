@@ -5,7 +5,7 @@
 apt-get install vim
 
 # Install main environment
-# - xorg: [X Window server](https://wiki.debian.org/Xorg)
+# - xorg: [Vital for displaying video](https://wiki.debian.org/Xorg)
 # - lightdm: [Display Manager](https://wiki.debian.org/LightDM)
 # - matchbox-window-manager: [Window manager](https://www.yoctoproject.org/tools-resources/projects/matchbox)
 # - chromium: [Web browser](https://wiki.debian.org/Chromium)
